@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
---root {
+:root {
   /* ?Main background */
   --Verydarkblue: #090b1a;
 
   /* ?Card background */
-  --Darkdesaturatedblue:#1b1938;
+  --Darkdesaturatedblue: #1b1938;
 
   /* ?Accent */
-  --Softviolet:#aa5cdb;
+  --Softviolet: #aa5cdb;
 
   /* *Main heading stats */
   --White: #ffffff;
@@ -25,10 +25,30 @@
   --LuxendDeca: "Luxend Deca";
 }
 
-img{
-    max-width: 100%;
+body {
+  background-color: var(--Verydarkblue);
 }
 
-body{
-    background-color: var(--Verydarkblue);
+.card__container {
+  max-width: 375px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card__container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__container-image img {
+  max-width: 300px;
+}
+
+.card__container__body{
+    background-color: var(--Darkdesaturatedblue);
+    max-width: 300px;
+    margin: 0 auto;
 }
