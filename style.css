@@ -45,10 +45,27 @@ body {
 
 .card__container-image img {
   max-width: 300px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .card__container__body{
     background-color: var(--Darkdesaturatedblue);
     max-width: 300px;
     margin: 0 auto;
+}
+
+.card__container__body-lead{
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.card__container__body-lead h1{
+    font-size: 20px;
+    font-family: var(--Inter);
+    font-weight: 700;
+    color: var(--White);
+}
+.card__container__body-lead span{
+    color: var(--Softviolet);
 }
