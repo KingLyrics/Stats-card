@@ -12,11 +12,18 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
+
+    <style>
+      .attribution{
+        text-align: center;
+        color:white;
+      }
+    </style>
   </head>
   <body>
     <div class="card__container">
       <div class="card__container-image">
-        <img src="./images/image-header-mobile.jpg" alt="Image of people" />
+        <div class="overlay-color"></div>
       </div>
       <div class="card__container__body">
         <div class="card__container__body-lead">
@@ -27,26 +34,28 @@
           regarding revenue, customer experience, and overall efficiency.
         </div>
         <div class="card__container__body-stats">
-          <div class="stats">
-            10k+ <br />
-            companies
-          </div>
-          <div class="stats">
-            314 <br />
-            templates
-          </div>
-          <div class="stats">
-            12m+ <br />
-            queries
+          <div class="statistics">
+            <div class="stats">
+              10k+ <br />
+              <span class="stats-word"> COMPANIES </span>
+            </div>
+            <div class="stats">
+              314 <br />
+              <span class="stats-word"> TEMPLATES </span>
+            </div>
+            <div class="stats">
+              12m+ <br />
+              <span class="stats-word"> QUERIES </span>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 
+    
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="#">Ekomobong Bassey Edeme</a>.
+  </div>
   </body>
 </html>
