@@ -113,13 +113,14 @@ span.stats-word{
     
     .card__container-image{
         width: 500px;
-        height: 55vh;
+        height: 52vh;
         border-radius: 0px 5px 5px 0px;
+        background-image: url('./images/image-header-desktop.jpg');
     }
 
     .overlay-color{
         width: 500px;
-        height: 55vh;
+        height: 52vh;
         border-radius: 0px 5px 5px 0px;
     }
 
